@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           name="description"
           content="Sit back, relax, and watch the numbers roll in."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicond.ico" />
       </Head>
       <Navbar />
       <div>
