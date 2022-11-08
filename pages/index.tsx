@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className="text-center sm:m-5 m-12">     
-          <div>
+          <div className="m-24 items-center flex flex-wrap justify-center">
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               We will work for <span className="text-rose-500">free</span>.
             </h1>
