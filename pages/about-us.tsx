@@ -15,7 +15,6 @@ const Aboutus = () => {
 <div className="row">
   <div className="column">
     <div className="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
       <div className="container">
         <h2>Jane Doe</h2>
         <p className="title">CEO & Founder</p>
