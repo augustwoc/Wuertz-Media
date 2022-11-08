@@ -6,8 +6,7 @@ const Aboutus = () => {
     <div>
       <Navbar />
       <div>
-        <html>
-<head>
+       <head>
 	<title>About Us Section</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +34,6 @@ const Aboutus = () => {
 					<a href=""><i class="fab fa-facebook-f"></i></a>
 					<a href=""><i class="fab fa-twitter"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
-				</div>
 			</div>
 			<div class="image-section">
 				<img src="image/img one.jpg">
@@ -45,7 +43,6 @@ const Aboutus = () => {
 
 	
 </body>
-</html>
     </div>
       <Footer />
     </div>
