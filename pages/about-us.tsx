@@ -11,7 +11,7 @@ const Aboutus = () => {
   <p>Resize the browser window to see that this page is responsive by the way.</p>
 </div>
 
-<h2 style="text-align:center">Our Team</h2>
+<h2>Our Team</h2>
 <div class="row">
   <div class="column">
     <div class="card">
@@ -28,7 +28,6 @@ const Aboutus = () => {
 
   <div class="column">
     <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
       <div class="container">
         <h2>Mike Ross</h2>
         <p class="title">Art Director</p>
