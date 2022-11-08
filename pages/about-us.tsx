@@ -6,7 +6,7 @@ const Aboutus = () => {
     <div>
       <Navbar />
       <div></div>
-      <Footer relative={false} />
+      <Footer />
     </div>
   );
 };
