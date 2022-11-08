@@ -37,8 +37,7 @@ const Home: NextPage = () => {
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
         </section>
-        <section className="text-center sm:m-5 m-12">
-          <h1 className="text-5xl font-bold"We will work for free</h1>           
+        <section className="text-center sm:m-5 m-12">           
           <h1 className="text-5xl font-bold">What we offer</h1>
           <div className="m-24 items-center flex flex-wrap justify-center">
             <Offer
