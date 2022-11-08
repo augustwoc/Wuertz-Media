@@ -30,7 +30,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="xl:block hidden">
-            <Image src={frontPhoto} height="700px" width="900px" />
+            <Image src={frontPhoto} height="500px" width="500px" />
           </div>
           </section>
 </div>
