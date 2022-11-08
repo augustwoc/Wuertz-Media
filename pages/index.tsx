@@ -162,7 +162,7 @@ const Home: NextPage = () => {
           </div>
         </section>
       </div>
-      <Footer relative={true} />
+      <Footer />
     </div>
   );
 };
