@@ -36,6 +36,17 @@ const Home: NextPage = () => {
           <div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
+          <div>
+            <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
+              Reach <span className="text-rose-500">exponential growth</span>,
+              without needing to touch your ads manager.
+            </h1>
+            <p className="mt-6 max-w-2xl font-medium text-slate-100">
+              We can manage everything for you, from creatives, to social media
+              and advertisement management. Just sit back, relax and watch the
+              numbers roll in.
+            </p>
+          </div>            
         </section>
         <section className="text-center sm:m-5 m-12">           
           <h1 className="text-5xl font-bold">What we offer</h1>
