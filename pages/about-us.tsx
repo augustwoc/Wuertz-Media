@@ -4,51 +4,31 @@ import Navbar from "../components/Navbar";
 const Aboutus = () => {
   return (
     <div>
+      <Head>
+        <title>Wuertz Media</title>
+        <meta
+          name="description"
+          content="Sit back, relax, and watch the numbers roll in."
+        />
+        <link rel="icon" href="/favicond.ico" />
+      </Head>
       <Navbar />
       <div>
-  <h1>About Us Page</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
-</div>
-
-<h2>Our Team</h2>
-<div className="row">
-  <div className="column">
-    <div className="card">
-      <div className="container">
-        <h2>Jane Doe</h2>
-        <p className="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div className="column">
-    <div className="card">
-      <div className="container">
-        <h2>Mike Ross</h2>
-        <p className="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div className="column">
-    <div className="card">
-      <div className="container">
-        <h2>John Doe</h2>
-        <p className="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>john@example.com</p>
-        <p><button className="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
+        <section className="items-center sm:mr-32 sm:ml-32 mt-32 flex justify-center xl:text-left text-center">
+          <div>
+            <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
+              Reach <span className="text-rose-500">exponential growth</span>,
+              without needing to touch your ads manager.
+            </h1>
+            <p className="mt-6 max-w-2xl font-medium text-slate-100">
+              We can manage everything for you, from creatives, to social media
+              and advertisement management. Just sit back, relax and watch the
+              numbers roll in.
+            </p>
+          </div>
+          <div className="xl:block hidden">
+            <Image src={frontPhoto} height="700px" width="900px" />
+          </div>
       <Footer />
     </div>
   );
