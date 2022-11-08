@@ -1,10 +1,21 @@
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center w-full fixed z-[1] top-0 shadow-lg p-3">
-      <h1 className="font-bold sm:text-xl text-sm">WUERTZ MEDIA</h1>
+      <Link href="/">
+        <h1 className="font-bold sm:text-xl text-sm cursor-pointer">
+          EXPONENTIAL STUDIOS
+        </h1>
+      </Link>
+      <Link href="/about-us">
+        <p className="font-medium sm:text-xl text-sm cursor-pointer hover:text-slate-100 transition">
+          About us
+        </p>
+      </Link>
       <a href="https://calendly.com/exponentialstudios/initial-call">
         <div className="sm:text-lg text-md bg-white pr-8 pl-8 pt-2 pb-2 rounded-md text-black font-medium flex items-cente hover:bg-slate-100 transition">
-          Book a Call
+          <p>Book a Call</p>
           <div className="ml-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
