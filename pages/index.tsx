@@ -38,10 +38,7 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className="text-center sm:m-5 m-12">
-          <h1 className="text-5xl font-bold"We will work for free</h1>
-           <p className="mt-6 max-w-2xl font-medium text-slate-100">
-              We will work with you for free in a period of 2 weeks so you can decide after the 2 weeks wheter you are satifed with our service or not. The only thing you have to pay for is the ads, and we will do the rest for free.
-            </p>            
+          <h1 className="text-5xl font-bold"We will work for free</h1>           
           <h1 className="text-5xl font-bold">What we offer</h1>
           <div className="m-24 items-center flex flex-wrap justify-center">
             <Offer
