@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import frontPhoto from "../public/sitePic2ndRev.png";
 
 const Aboutus = () => {
   return (
@@ -15,7 +16,7 @@ const Aboutus = () => {
       </Head>
       <Navbar />
       <div>
-        <section className="items-center sm:mr-32 sm:ml-32 mt-32 flex justify-center xl:text-left text-center">
+        <section> className="items-center sm:mr-32 sm:ml-32 mt-32 flex justify-center xl:text-left text-center">
           <div>
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               Reach <span className="text-rose-500">exponential growth</span>,
@@ -30,6 +31,7 @@ const Aboutus = () => {
           <div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
+          </section>
 </div>
       <Footer />
     </div>
