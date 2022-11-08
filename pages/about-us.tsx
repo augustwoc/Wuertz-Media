@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 const Aboutus = () => {
   return (
-    </div>
+    <div>
       <Head>
         <title>Wuertz Media</title>
         <meta
@@ -26,7 +26,7 @@ const Aboutus = () => {
               numbers roll in.
             </p>
           </div>
-          <div className="xl:block hidden">
+          </div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
       <Footer />
