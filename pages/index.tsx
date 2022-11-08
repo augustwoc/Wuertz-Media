@@ -36,6 +36,8 @@ const Home: NextPage = () => {
           <div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
+        </section>
+        <section className="text-center sm:m-5 m-12">     
           <div>
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               Reach <span className="text-rose-500">exponential growth</span>,
