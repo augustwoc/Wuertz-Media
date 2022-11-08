@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
-import frontPhoto from "../public/sitePic2ndRev.png";
+import frontPhoto from "../public/Photo.png";
 import Image from "next/image"
 
 const Aboutus = () => {
@@ -10,8 +10,8 @@ const Aboutus = () => {
       <Head>
         <title>Wuertz Media</title>
         <meta
-          name="description"
-          content="Sit back, relax, and watch the numbers roll in."
+          name="About us"
+          content="Meet the team."
         />
         <link rel="icon" href="/favicond.ico" />
       </Head>
@@ -30,7 +30,7 @@ const Aboutus = () => {
             </p>
           </div>
           <div className="xl:block hidden">
-            <Image src={Photo.png} height="700px" width="900px" />
+            <Image src={frontPhoto} height="700px" width="900px" />
           </div>
           </section>
 </div>
