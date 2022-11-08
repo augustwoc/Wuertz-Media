@@ -24,11 +24,13 @@ const Home: NextPage = () => {
         <section className="items-center sm:mr-32 sm:ml-32 mt-32 flex justify-center xl:text-left text-center">
           <div>
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
-              We will work for <span className="text-rose-500">free</span>.
+              Reach <span className="text-rose-500">exponential growth</span>,
+              without needing to touch your ads manager.    
             </h1>
             <p className="mt-6 max-w-2xl font-medium text-slate-100">
-              We will work with you for free in a period of 2 weeks after the 2 weeks you can decite if
-              you will continue the work with us. All you have to pay for is the ads, then we will take care of the rest.
+              We can manage everything for you, from creatives, to social media
+              and advertisement management. Just sit back, relax and watch the
+              numbers roll in.
             </p>
           </div>
           <div className="xl:block hidden">
@@ -38,13 +40,11 @@ const Home: NextPage = () => {
         <section className="text-center sm:m-5 m-12">     
           <div>
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
-              Reach <span className="text-rose-500">exponential growth</span>,
-              without needing to touch your ads manager.
+              We will work for <span className="text-rose-500">free</span>.
             </h1>
             <p className="mt-6 max-w-2xl font-medium text-slate-100">
-              We can manage everything for you, from creatives, to social media
-              and advertisement management. Just sit back, relax and watch the
-              numbers roll in.
+              We will work with you for free in a period of 2 weeks after the 2 weeks you can decite if
+              you will continue the work with us. All you have to pay for is the ads, then we will take care of the rest.
             </p>
           </div>            
         </section>
