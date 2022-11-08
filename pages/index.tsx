@@ -43,8 +43,8 @@ const Home: NextPage = () => {
               We will work for <span className="text-rose-500">free</span>.
             </h1>
             <p className="mt-6 max-w-2xl font-medium text-slate-100">
-              We will work with you for free in a period of 2 weeks after the 2 weeks you can decite if
-              you will continue the work with us. All you have to pay for is the ads, then we will take care of the rest.
+              We will work with you for free in a period of 2 weeks, after the 2 weeks are over you can decide if
+              you want to continue the work with us. All you have to pay for is the facebook ads, then we will take care of the rest.
             </p>
           </div>            
         </section>
