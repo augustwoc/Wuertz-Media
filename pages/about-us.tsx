@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 const Aboutus = () => {
   return (
     <div>
+     <Navbar />
+     <div>
       <Head>
         <title>Wuertz Media</title>
         <meta
