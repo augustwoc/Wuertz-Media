@@ -21,12 +21,10 @@ const Aboutus = () => {
           <div>
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               Meet <span className="text-rose-500">our team</span>,
-              that will take care of you.
+              we will take care of you.
             </h1>
             <p className="mt-6 max-w-2xl font-medium text-slate-100">
-              We can manage everything for you, from creatives, to social media
-              and advertisement management. Just sit back, relax and watch the
-              numbers roll in.
+              Your goals are our goals. It's as simple as that. We work to ensure that every project, no matter how big or small, gets the resources it needs to succeed.
             </p>
           </div>
           <div className="xl:block hidden">
