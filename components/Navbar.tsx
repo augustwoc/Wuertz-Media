@@ -13,7 +13,7 @@ const Navbar = () => {
           About us
         </p>
       </Link>
-      <a href="https://calendly.com/wuertzmedia/60-minute-meeting?back=1&month=2022-11">
+      <a href="https://calendly.com/wuertzmedia/15-minute-meeting">
         <div className="sm:text-lg text-md bg-white pr-8 pl-8 pt-2 pb-2 rounded-md text-black font-medium flex items-cente hover:bg-slate-100 transition">
           <p>Book a Call</p>
           <div className="ml-2">
