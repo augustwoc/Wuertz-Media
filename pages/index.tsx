@@ -8,7 +8,7 @@ import Offer from "../components/Offer";
 import frontPhoto from "../public/sitePic2ndRev.png";
 
 const Home: NextPage = () => {
-  const calendlyURL = "https://calendly.com/wuertzmedia/60-minute-meeting?back=1&month=2022-11";
+  const calendlyURL = "https://calendly.com/wuertzmedia/15-minute-meeting";
   return (
     <div>
       <Head>
