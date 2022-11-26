@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Offer from "../components/Offer";
 import frontPhoto from "../public/sitePic2ndRev.png";
+import Photo from "../public/Offer.png";
 
 const Home: NextPage = () => {
   const calendlyURL = "https://calendly.com/wuertzmedia/15-minute-meeting";
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
           <div className="m-24 items-center flex flex-wrap justify-center">
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               We work for <span className="text-rose-500">free</span>!
+            <Image src={Photo} height="700px" width="900px" />    
             </h1>
             </div>
             <div className="m-24 items-center flex flex-wrap justify-center">
