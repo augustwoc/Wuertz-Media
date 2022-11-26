@@ -38,11 +38,11 @@ const Home: NextPage = () => {
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
         </section>
+            <Image src={Photo} height="6912px" width="3456px" />            
         <section className="text-center sm:m-5 m-12">     
           <div className="m-24 items-center flex flex-wrap justify-center">
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               We work for <span className="text-rose-500">free</span>!
-            <Image src={Photo} height="6912px" width="3456px" />    
             </h1>
             </div>
             <div className="m-24 items-center flex flex-wrap justify-center">
