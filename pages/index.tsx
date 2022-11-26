@@ -37,9 +37,6 @@ const Home: NextPage = () => {
           <div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
-          <div className="xl:block hidden">
-            <Image src={Photo} height="2560px" width="1280px" />   
-          </div>
         </section>        
         <section className="text-center sm:m-5 m-12">    
           <div className="m-24 items-center flex flex-wrap justify-center">          
