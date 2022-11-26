@@ -37,10 +37,10 @@ const Home: NextPage = () => {
           <div className="xl:block hidden">
             <Image src={frontPhoto} height="700px" width="900px" />
           </div>
-        </section>
-            <Image src={Photo} height="2560px" width="1280px" />            
-        <section className="text-center sm:m-5 m-12">     
+        </section>        
+        <section className="text-center sm:m-5 m-12">    
           <div className="m-24 items-center flex flex-wrap justify-center">
+            <Image src={Photo} height="2560px" width="1280px" />           
             <h1 className="font-bold sm:text-5xl sm:max-w-2xl text-3xl">
               We work for <span className="text-rose-500">free</span>!
             </h1>
